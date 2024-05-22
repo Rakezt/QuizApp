@@ -132,7 +132,10 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
 
   const { theme, toggleTheme } = useTheme();
   return (
-    <div className={theme === "light" ? "light-mode" : "dark-mode"}>
+    <div
+      className={theme === "light" ? "light-mode" : "dark-mode"}
+      style={{ paddingBottom: "1rem" }}
+    >
       <h1>{title}</h1>
       <Button variant="contained" onClick={toggleTheme}>
         Toggle Theme

@@ -2,7 +2,7 @@ export const quizData = [
   {
     question: "Who won the Premier League 2023/2024?",
     options: ["Arsenal", "Manchester United", "Liverpool", "Manchester City"],
-    correctOption: 4,
+    correctOption: 3,
   },
   {
     question: "Who is the winner of Fifa World Cup 2022?",
@@ -23,5 +23,10 @@ export const quizData = [
     question: "Which team is the current winner of Champions League",
     options: ["Real Madrid", "Juventus", "Manchester City", "Barcelona"],
     correctOption: 0,
+  },
+  {
+    question: "Which player has scored the most in Champions League",
+    options: ["Neymar", "Messi", "Ronaldo", "Ronaldinho"],
+    correctOption: 2,
   },
 ];

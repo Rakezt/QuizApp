@@ -12,15 +12,17 @@ const Quiz: React.FC<QuizProps> = ({ quiz, onClickOption }) => {
     <div>
       <Typography variant="h4">{quiz.question}</Typography>
       <div className="Container">
-        <List>
+        <ol>
           {quiz.options.map((option, index) => (
-            <ListItem key={index}>
-              <ListItemButton onClick={() => onClickOption(index)}>
-                {option}
-              </ListItemButton>
-            </ListItem>
+            <li
+              key={index}
+              className="option"
+              onClick={() => onClickOption(index)}
+            >
+              {option}
+            </li>
           ))}
-        </List>
+        </ol>
       </div>
     </div>
   );

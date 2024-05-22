@@ -1,9 +1,13 @@
 .option {
   cursor: pointer;
+  padding: 0.5rem 1rem;
+  list-style: none;
 }
-.Container {
+.option:hover {
+  background-color: rgb(234, 232, 232);
+}
+s .Container {
   display: flex;
   justify-content: center;
-  text-align: center;
-  align-items: center;
+  width: 60%;
 }

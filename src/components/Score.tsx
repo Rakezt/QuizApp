@@ -14,7 +14,7 @@ const Score: React.FC<ScoreProps> = ({
   resetButton,
 }) => {
   return (
-    <div>
+    <div className="container">
       <Button variant="contained" onClick={resetButton}>
         Play Again
       </Button>
