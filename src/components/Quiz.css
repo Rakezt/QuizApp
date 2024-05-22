@@ -1,0 +1,9 @@
+.option {
+  cursor: pointer;
+}
+.Container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}

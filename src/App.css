@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  font-size: 1.3rem;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}

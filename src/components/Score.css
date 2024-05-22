@@ -1,0 +1,6 @@
+.trophy {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  flex-direction: column;
+}
