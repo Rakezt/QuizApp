@@ -1,6 +1,6 @@
 import React from "react";
 import "./Quiz.css";
-import { List, ListItem, ListItemButton, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 
 interface QuizProps {
   quiz: { question: string; options: string[]; correctOption: number };
